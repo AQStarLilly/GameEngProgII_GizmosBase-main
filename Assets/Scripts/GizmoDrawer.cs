@@ -19,8 +19,13 @@ public class GizmoDrawer : MonoBehaviour
     public Vector3 size = Vector3.one;
     public Transform endPoint;
 
+    [Header("Advanced Settings")]
+    public bool drawGizmos = true;
+
     private void OnDrawGizmos()
     {
+        if (!drawGizmos) return;
+        if (!GizmoSettings.IsEnabled(type)) return;
         switch (type)
         {
             case GizmoType.SpawnPoint:
@@ -46,6 +51,9 @@ public class GizmoDrawer : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        if (!drawGizmos) return;
+        if (!GizmoSettings.IsEnabled(type)) return;
+
         switch (type)
         {
             case GizmoType.TriggerZone:
