@@ -7570,6 +7570,7 @@ MonoBehaviour:
   type: 1
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 1979772610}
 --- !u!43 &664597720
 Mesh:
   m_ObjectHideFlags: 0
@@ -12288,6 +12289,7 @@ MonoBehaviour:
   type: 1
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 1989379693}
 --- !u!1 &1125102785
 GameObject:
   m_ObjectHideFlags: 0
@@ -14709,6 +14711,7 @@ MonoBehaviour:
   type: 2
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 0}
 --- !u!1 &1326762337
 GameObject:
   m_ObjectHideFlags: 0
@@ -14756,6 +14759,7 @@ MonoBehaviour:
   type: 0
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 0}
 --- !u!1 &1327134329
 GameObject:
   m_ObjectHideFlags: 0
@@ -15195,6 +15199,7 @@ MonoBehaviour:
   type: 3
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 0}
 --- !u!1 &1429796662
 GameObject:
   m_ObjectHideFlags: 0
@@ -16793,6 +16798,7 @@ MonoBehaviour:
   type: 0
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 0}
 --- !u!1 &1600321344
 GameObject:
   m_ObjectHideFlags: 0
@@ -18394,6 +18400,7 @@ MonoBehaviour:
   type: 4
   radius: 0.7
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 0}
 --- !u!43 &1801988765
 Mesh:
   m_ObjectHideFlags: 0
@@ -19310,6 +19317,7 @@ MonoBehaviour:
   type: 1
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 1082822917}
 --- !u!43 &1981623844
 Mesh:
   m_ObjectHideFlags: 0
@@ -19522,6 +19530,7 @@ MonoBehaviour:
   type: 1
   radius: 0.5
   size: {x: 1, y: 1, z: 1}
+  endPoint: {fileID: 635345745}
 --- !u!43 &1992165288
 Mesh:
   m_ObjectHideFlags: 0

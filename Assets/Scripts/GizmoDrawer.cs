@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GizmoDrawer : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class GizmoDrawer : MonoBehaviour
     public GizmoType type;
     public float radius = 0.5f;
     public Vector3 size = Vector3.one;
+    public Transform endPoint;
 
     private void OnDrawGizmos()
     {
@@ -29,6 +31,7 @@ public class GizmoDrawer : MonoBehaviour
 
             case GizmoType.Waypoint:
                 Gizmos.color = Color.blue;
+                Gizmos.DrawLine(transform.position, endPoint.position);
                 Gizmos.DrawIcon(transform.position + new Vector3(0f, 1.0f, 0f), "waypoint.png", true);
                 Gizmos.DrawWireSphere(transform.position, radius);
                 break;
